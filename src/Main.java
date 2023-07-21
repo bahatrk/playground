@@ -9,7 +9,9 @@ public class Main {
         int numberOne = input.nextInt();
         System.out.println("2.Sayıyı giriniz:");
         int numberTwo = input.nextInt();
-        int sum = numberOne+numberTwo;
+        System.out.println("3.Sayıyı giriniz:");
+        int numberThree = input.nextInt();
+        int sum = numberOne+numberTwo+numberThree;
         System.out.println("Girilen sayıların toplamı: " + sum);
     }
 }
